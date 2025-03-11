@@ -10,12 +10,12 @@ from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
 import joblib
-import os
-# copied from dagshub -> datascience repo -> Remote -> Experiments -> MLflow
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/zzganjei/DataScience.mlflow" 
-os.environ["MLFLOW_TRACKING_USERNAME"] = "zzganjei"
-# copied from dagshub -> datascience repo -> Remote -> Experiments -> Data -> DVC -> Setup credentials -> access token
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "70187a94f712e61275cbd72e4d6e8ae8e120c323"
+# import os
+# # copied from dagshub -> datascience repo -> Remote -> Experiments -> MLflow
+# os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/zzganjei/DataScience.mlflow" 
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "zzganjei"
+# # copied from dagshub -> datascience repo -> Remote -> Experiments -> Data -> DVC -> Setup credentials -> access token
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "70187a94f712e61275cbd72e4d6e8ae8e120c323"
 
 class ModelEvaluation:
     def __init__(self, config:ModelEvaluationConfig):
