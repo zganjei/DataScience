@@ -8,7 +8,7 @@
 4. Model Trainer
 5. Model Evaluation
 
-## Workflows
+## Workflow for developing different componenets
 
 1. Update config.yaml for data ingestion
 2. Update schema.yaml for data validation
