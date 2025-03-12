@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/DataScience/mlruns/0/2c48462f99af4cdd96db47d9a32f8260/artifacts
+end_time: 1741757164035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c48462f99af4cdd96db47d9a32f8260
+run_name: omniscient-flea-821
+run_uuid: 2c48462f99af4cdd96db47d9a32f8260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741757160524
+status: 3
+tags: []
+user_id: codespace
